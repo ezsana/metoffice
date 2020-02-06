@@ -34,7 +34,7 @@ public class StepDefinitions {
     }
 
     @After
-    void close() {
+    public void close() {
         repository.closeDriver();
     }
 
